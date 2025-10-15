@@ -12,7 +12,8 @@ substitutions:
   ##############################
   BOOT_STEP_HW_WIFI: '9'
   TAG_HW_WIFI: nspanel.hw.wifi
-
+  wifi_ipaddress: ${device_name}.local
+  
 api:
   on_client_connected:
     then:
